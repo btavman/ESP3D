@@ -74,11 +74,11 @@
 #define ESP_SERIAL_OUTPUT USE_SERIAL_0
 
 
-/* Optional Output 
+/* Optional Output
  * Instead of Serial, you can use USB Serial
  * USB_SERIAL_FEATURE on ESP32  S2/S3 Only
  */
-//#define USB_SERIAL_FEATURE
+#define USB_SERIAL_FEATURE
 
 /* Bridge Serial port (deprecated on esp8266 as second serial is)
  * which serial ESP use to bridge to another device (ESP32 has 3 serials
@@ -108,7 +108,7 @@
  * SMOOTHIEWARE
  * REPETIER
  */
-#define DEFAULT_FW UNKNOWN_FW
+#define DEFAULT_FW MARLIN
 
 /************************************
  *
